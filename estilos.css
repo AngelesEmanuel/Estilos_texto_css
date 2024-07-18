@@ -1,0 +1,39 @@
+/*primero se agrega la etiqueta con la que voy a trabajar, y
+ se agrega con el nombre de la etiqueta y sus modificaciones
+  van dentro de unas cyrly braces que son los corchetes */
+
+  h1 {
+    /*primero se coloca la propiedad y posteriormente el 
+    valor final en ; */
+    color:blueviolet; 
+  }
+
+  p{
+    color:blue;
+    font-size: 30pt;
+  }
+
+  /*un selector es el que nos ayuda a agrupor los parrafos 
+  que pertenecen a otra etiqueta y los requiere en otras*/
+
+  #ejemplo-h1{
+    color:aquamarine;
+    font-size:40 pt;
+  }
+
+  /*selector de clase: se accede de manera diferentte, así 
+  como se muestra en el ejemplo*/
+  .euro {
+    color:tomato;
+    font-size: 20 pt;
+  }
+
+  .latam {
+    color:yellowgreen;
+    font-size:50pt;
+  }
+  
+  .fut-llanero {
+    color:violet;
+    font-size:4pt;
+  }
